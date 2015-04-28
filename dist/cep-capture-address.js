@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('cepCapture', ['ng']).directive(function () {
+  angular.module('cepCapture', ['ng']).directive('cepCaptureAddress', function () {
    return {
       restrict: 'A',
       require: 'ngModel',
